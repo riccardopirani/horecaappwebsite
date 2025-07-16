@@ -1,103 +1,96 @@
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fnexi-launch%2Ffinwise-landing-page)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fmarconisoftware%2Fhoreca-landing)
 
-# Finwise - Next.js + Tailwind Landing Page Template
+# Horeca App - Next.js + Tailwind Landing Page
 
-Finwise is a lightweight, easily configurable, and customizable **Next.js** and **Tailwind CSS** landing page template. It’s built to be adaptable, performant, and perfect for any product launch, portfolio, or promotional site.
+**Horeca App** è la landing page ufficiale di **Marconi Software** per bar, ristoranti, pub e pizzerie che vogliono ottimizzare la gestione degli ordini, DDT, magazzino e forniture con un'interfaccia smart e supportata da intelligenza artificiale.
 
-Try out the demo here: [https://finwise-omega.vercel.app](https://finwise-omega.vercel.app).
-
-Please check out the documentation below to get started.
+👉 [Guarda la demo](https://horeca-app.vercel.app)
 
 ---
 
-## Features
+## ✨ Funzionalità principali
 
-- **Next.js** app router with **TypeScript**
-- **Tailwind CSS** v3 for flexible styling customization
-- Smooth transitions powered by **Framer Motion**
-- Built-in **font optimization** with [next/font](https://nextjs.org/docs/app/api-reference/components/font)
-- Automatic **image optimization** via [next/image](https://nextjs.org/docs/app/building-your-application/optimizing/images)
-- Access to **31+ icon packs** via [React Icons](https://react-icons.github.io/react-icons/)
-- Near-perfect **Lighthouse score**
-- Modular, responsive, and **scalable components**
-- **Free lifetime updates**
+- ⚡ Basata su **Next.js** e **Tailwind CSS**
+- 🎨 Design moderno, responsive e completamente personalizzabile
+- 🤖 Supporto a funzionalità intelligenti (es. articoli suggeriti, auto-compilazione DDT)
+- 🚀 Ottimizzata per performance e SEO
+- 📱 Responsive su tutti i dispositivi
+- 🧱 Struttura modulare, perfetta per team di sviluppo
+- 🔐 Privacy by design
 
 ---
 
-## Sections
+## 🔧 Sezioni del sito
 
-- Hero
-- Partners or Clients Logos
-- Features
-- Pricing
-- Testimonials
-- FAQ
-- Statistics
-- CTA
-- Footer
-
----
-
-## Getting Started
-
-### Prerequisites
-
-Before starting, make sure you have the following installed:
-
-- **Node.js**: Version 18 or later
-- **npm**: Version 8 or later (bundled with Node.js)
-- **Code editor**: [VS Code](https://code.visualstudio.com/) is recommended.
-
-### Steps
-
-1. **Install dependencies**: Run `npm install`
-2. **Run the development server**: `npm run dev`
-3. **View your project**: Open [localhost:3000](http://localhost:3000)
+- Hero con CTA
+- Sezione “Per chi è pensata” (ristoratori, gestori, food chain)
+- Vantaggi e funzionalità
+- Prezzi e piani
+- Testimonianze
+- Domande frequenti
+- Statistiche d’impatto
+- Call To Action finale
+- Footer brandizzato Marconi Software
 
 ---
 
-## Customization
+## 🚀 Come iniziare
 
-1. **Edit colors**: Update `globals.css` for primary, secondary, background, and accent colors.
-2. **Update site details**: Customize `siteDetails.ts` in `/src/data` to reflect your brand and site info.
-3. **Modify content**: Files in `/src/data` handle data for navigation, features, pricing, testimonials, and more.
-4. **Replace favicon**: Add your icon to `/src/app/favicon.ico`.
-5. **Add images**: Update `public/images` for Open Graph metadata (e.g., `og-image.jpg`, `twitter-image.jpg`).
+### Prerequisiti
 
----
+- **Node.js** 18+
+- **npm** 8+
+- Editor di codice consigliato: [VS Code](https://code.visualstudio.com/)
 
-## Deploying on Vercel
+### Passaggi
 
-The fastest way to deploy Finwise is on [Vercel](https://vercel.com/). Simply click the "Deploy with Vercel" button at the top of this README, or check the [Next.js deployment docs](https://vercel.com/docs/deployments/deployment-methods) for other deployment options.
-
----
-
-## Contributing
-
-Finwise is an open-source project, and we welcome contributions from the community! If you have ideas for new components, designs, layouts, or optimizations, please join us in making Finwise even better.
-
-### How to Contribute
-
-1. **Fork the Repository**: Clone it locally.
-2. **Create a New Branch**: For example, `feature/new-section` or `fix/style-issue`.
-3. **Develop and Test**: Make sure your changes work and don't break existing functionality.
-4. **Submit a Pull Request**: Open a pull request with a clear description of your changes, and we'll review it.
-
-### Ideas for Contributions
-
-- New component sections (team introductions, comparison table, case studies, etc.)
-- Additional page variants (e.g., agency, eCommerce, portfolio layouts)
-- Additional themes
-- Documentation updates, tutorials, or guides
+1. Clona il progetto o clicca su “Deploy with Vercel”
+2. Installa le dipendenze con `npm install`
+3. Avvia il progetto in locale con `npm run dev`
+4. Apri [http://localhost:3000](http://localhost:3000)
 
 ---
 
-## Community and Support
+## 🖌️ Personalizzazione
 
-Join our community discussions on GitHub to share ideas, ask questions, or suggest improvements. Let’s build something amazing together!
+- **Colori e font**: modifica `globals.css` per adattare al brand
+- **Logo, nome app, slogan**: modifica `siteDetails.ts` in `/src/data`
+- **Sezioni dinamiche**: aggiorna file JSON/TS in `/src/data` per contenuti e immagini
+- **Immagini**: sostituisci i file in `public/images/` per open graph e visuali demo
+- **SEO e metadati**: configurabili tramite `next.config.js` e `<Head>`
 
 ---
 
-## License
+## ☁️ Deploy su Vercel
 
-This project is open-source and available under the MIT License. Feel free to use, modify, and distribute it for personal or commercial projects.
+La modalità più semplice per mettere online Horeca App è usare [Vercel](https://vercel.com/). Clicca il pulsante qui sopra o esegui i passaggi descritti nei [Vercel docs](https://vercel.com/docs).
+
+---
+
+## 🤝 Contribuire
+
+Se vuoi contribuire a migliorare Horeca App:
+
+1. Forka il repository
+2. Crea una branch (`feature/`, `fix/`, etc.)
+3. Fai commit e push delle modifiche
+4. Apri una pull request
+
+---
+
+## 📬 Supporto
+
+Hai bisogno di aiuto? Contatta il team di Marconi Software:
+
+- 📧 Email: [support@marconisoftware.com](mailto:support@marconisoftware.com)
+- 🌐 Sito web: [https://marconisoftware.com](https://marconisoftware.com)
+
+---
+
+## 📄 Licenza
+
+Open Source – MIT License.
+
+---
+
+> Horeca App è un progetto curato da **Marconi Software** per la digitalizzazione del settore ristorazione. Gestione smart, zero sprechi, più guadagni.
