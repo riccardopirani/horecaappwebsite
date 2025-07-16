@@ -95,17 +95,17 @@ const PricingColumn: React.FC<Props> = ({ tier, highlight }: Props) => {
               Richiesta attivazione
             </h2>
             <div className="grid gap-4">
-            {(Object.keys(formData) as (keyof FormFields)[]).map((field) => (
-  <input
-    key={field}
-    name={field}
-    placeholder={field[0].toUpperCase() + field.slice(1)}
-    value={formData[field]}
-    onChange={handleInputChange}
-    className="border border-gray-300 rounded-md px-3 py-2 w-full"
-    type={field === "email" ? "email" : "text"}
-  />
-))}
+              {(Object.keys(formData) as (keyof FormFields)[]).map((field) => (
+                <input
+                  key={field}
+                  name={field}
+                  placeholder={field[0].toUpperCase() + field.slice(1)}
+                  value={formData[field]}
+                  onChange={handleInputChange}
+                  className="border border-gray-300 rounded-md px-3 py-2 w-full"
+                  type={field === "email" ? "email" : "text"}
+                />
+              ))}
             </div>
             <div className="flex justify-end gap-3 mt-6">
               <button
