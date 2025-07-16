@@ -15,7 +15,15 @@ const PricingColumn: React.FC<Props> = ({ tier, highlight }: Props) => {
   const { name, price, features } = tier;
 
   const [showModal, setShowModal] = useState(false);
-  const [formData, setFormData] = useState({
+  type FormFields = {
+    nome: string;
+    cognome: string;
+    email: string;
+    telefono: string;
+    locale: string;
+  };
+
+  const [formData, setFormData] = useState<FormFields>({
     nome: "",
     cognome: "",
     email: "",
